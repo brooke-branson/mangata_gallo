@@ -1,0 +1,48 @@
+body {
+    background-color: whitesmoke;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+h1 {
+    font-size: 3rem;
+}
+
+h2 {
+    font-size: 3rem;
+}
+
+/* Header Styles */
+nav ul {
+    list-style: None;
+    text-align: center;
+}
+
+nav li {
+    display: inline-block;
+}
+
+header > img {
+    display: block;
+    margin-left: auto;
+    margin-right:  auto;
+}
+/* Main Body Styles */
+section {
+    display:  flex;
+}
+
+article {
+    flex: 1;
+}
+
+/* Footer Styles */
+footer{
+    display:  flex;
+}
+
+footer div {
+    flex: 1;
+}
