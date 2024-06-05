@@ -29,10 +29,10 @@ nav ul {
     list-style: None;
     text-align: center;
     padding: 0;
-    background-color: white;
-    margin-left: 35%;
-    margin-right: 35%;
-    border-radius: 15px;
+    border-bottom: 2px solid silver;
+    border-radius: 2px;
+    margin-left: 1.5rem;
+    margin-right: 1.5rem;
 }
 
 nav li {
@@ -46,6 +46,7 @@ nav a {
     text-decoration: none;
     padding-left: 1rem;
     padding-right: 1rem;
+    margin-bottom: 1rem;
     border-radius: 15px;
 
 }
@@ -80,7 +81,9 @@ article {
 }
 
 
-
+.main_article h1 {
+    margin-top: 4rem;
+}
 
 article:hover {
     box-shadow: 2px 2px 15px white ;
@@ -95,19 +98,19 @@ article:hover {
     background-size: cover;
 }
 
-.article_2 p {
+.article_fade p {
     display: none;
 }
-.article_2 h2 {
+.article_fade h2 {
     margin-top: 6rem;
 }
 
-.article_2:hover h2 {
+.article_fade:hover h2 {
     margin-top: 1rem;
     transition: 1s;
 }
 
-.article_2:hover p{
+.article_fade:hover p{
     display: contents;
     animation: text_fade_in 1s;
     transition: 0.5s;
