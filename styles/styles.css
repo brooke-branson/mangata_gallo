@@ -70,6 +70,7 @@ section {
 
 article {
     flex: 1;
+    text-overflow: ellipsis;
     transition: 0.75s;
     text-align: center;
     border: 2px solid white;
