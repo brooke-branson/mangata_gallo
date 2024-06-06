@@ -93,8 +93,18 @@ article:hover {
     background-blend-mode: darken;
 }
 
+.article_1 {
+    background-image: url(https://images.squarespace-cdn.com/content/v1/60d1010215587e68f0a9ba46/9916024a-c308-4210-9b4c-528cb0be5483/pristine-gems-about-the-company.png);
+    background-size: cover;
+}
+
 .article_2 {
     background-image: url(https://robbreport.com/wp-content/uploads/2018/11/dmichael.jpg?w=1000);
+    background-size: cover;
+}
+
+.article_3 {
+    background-image: url(https://dropinblog.net/34239851/files/featured/fine_jewellery_designers_-_designer_working_on_jewellery_a_design.jpg);
     background-size: cover;
 }
 
